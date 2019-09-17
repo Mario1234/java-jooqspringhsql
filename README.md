@@ -4,7 +4,12 @@ Aplicacion de escritorio de prueba para libreria jOOQ con Spring y HSQL escrita 
 Este aplicacion de escritorio utiliza el framework Spring para administrar la persistencia en la ejecucion de consultas a una base de datos que se realizan mediante la libreria JOOQ, se conecta a una base de datos HSQL y usa el gestor Maven para la administracion de librerias de dependencias.
 
 
-Descargar HyperSQL, descomprimir carpeta hsqldb en C: Tener variables de entorno de jdk y jre 8 o superior en path Abrir consola powershell modo administrador
+**1-**
+Descargar HyperSQL, descomprimir carpeta hsqldb en C: Tener variables de entorno de jdk y jre 8 o superior en path 
+
+
+**2-**
+Abrir consola powershell modo administrador
 
 
 cd "C:\hsqldb\lib"
@@ -26,7 +31,7 @@ INSERT INTO USUARIO (ID,NOMBRE,APELLIDO) VALUES (0,'James','Bond');
 
 Salir
 
-
+**3-**
 abrir proyecto con eclipse Java EE IDE for Web Developers con el plugin de maven(deberia tenerlo en la propia distribucion), version Oxygen 4.7.3a o superior
 
 
@@ -61,6 +66,7 @@ Apply
 Apply and Close
 
 
+**4-**
 ahora se sigue procedimiento para descargar las librerias necesarias del proyecto:
 
 
@@ -72,6 +78,7 @@ Proyecto click der->Maven->Update Project...
 force update snapshots releases
 
 
+**5-**
 y en este punto empieza el proceso para generar con JOOQ las clases java tipo Entity que representan las tablas SQL de la BD
 
 
@@ -95,4 +102,5 @@ Run
 Aqui se han generado las clases pero UsuarioRecord tiene demasiados @Override, quitalos ahora el proyecto deberia compilar
 
 
+**6-**
 Para ejecutarlo hacer click derecho sobre src/main/java/comun/Principal.java ->Run As...->Java Application
