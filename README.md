@@ -1,6 +1,5 @@
 # java-jooqspringhsql
 ___
-___
 Aplicacion de escritorio de prueba para libreria jOOQ con Spring y HSQL escrita en Java
 
 Este aplicacion de escritorio utiliza el framework Spring para administrar la persistencia en la ejecucion de consultas a una base de datos que se realizan mediante la libreria JOOQ, se conecta a una base de datos HSQL y usa el gestor Maven para la administracion de librerias de dependencias.
@@ -105,6 +104,6 @@ Run
 
 Aqui se han generado las clases pero UsuarioRecord tiene demasiados @Override, quitalos ahora el proyecto deberia compilar
 
-
+___
 **6-**
 Para ejecutarlo hacer click derecho sobre src/main/java/comun/Principal.java ->Run As...->Java Application
